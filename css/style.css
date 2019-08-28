@@ -23,8 +23,17 @@ p{
 
 /* Utility classes */
 .bg-primary{
+  background: #f0d78c;
+  color: #4f81c7;
+}
+
+.bg-dark{
   background: #4f81c7;
-  color: white;
+  color: #fcfafa;
+}
+
+.bg-light{
+  color: #64c4ed;
 }
 
 .text-primary{
@@ -119,6 +128,7 @@ p{
 
 #home-info .info-img{
   background: url('../img/laptop.jpeg')no-repeat;
+  background-size: cover;
   min-height: 100%;
   width: 50%;
 }
@@ -130,9 +140,26 @@ p{
   padding: 50px 30px;
 }
 
+#home-info .info-content h2{
+  font-size: 30px;
+}
+
 #home-info .info-content p{
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 18px;
   font-weight: lighter;
+}
+
+/* Features */
+#features{
+  display: flex;
+  height: 300px;
+}
+
+.box{
+  width: 33.3%;
+  height: 100%;
+  padding: 50px;
+  text-align: center;
 }
