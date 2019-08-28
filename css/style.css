@@ -33,7 +33,7 @@ p{
 }
 
 .bg-light{
-  color: #64c4ed;
+  color: #4f81c7;
 }
 
 .text-primary{
@@ -60,6 +60,21 @@ p{
   color: #64c4ed;
 }
 
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.py-3{
+  padding: 30px 0;
+}
+
+.l-heading{
+  font-size:40px;
+  line-height: 1.2;
+}
 /* navbar */
 .nav{
   display: flex;
@@ -170,4 +185,25 @@ p{
   background:#4f81c7;
   color: white;
   padding: 20px;
+}
+
+/* About Info */
+#about-info .about{
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-info .about .info-left{
+  width: 50%;
+  margin-top: 20px;
+}
+
+#about-info .about .info-right{
+  width: 50%;
+}
+
+#about-info .about .info-right img{
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 20px;
 }
