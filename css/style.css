@@ -13,8 +13,37 @@ html, body{
   line-height: 1.7em;
 }
 
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0.75rem 0;
+}
+
+/* Utility classes */
+
+.text-primary{
+  color: #f0d78c;
+}
+
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  color: #fcfafa;
+  background: #4f81c7;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: #f0d78c;
+  color: #4f81c7;
+}
+
 /* navbar */
-.nav-container{
+.nav{
   display: flex;
   justify-content: space-between;
 }
@@ -32,7 +61,6 @@ html, body{
 }
 
 #navbar ul li a{
-  text-decoration: none;
   color:  #fcfafa;
   padding: 1.3rem;
 }
@@ -45,7 +73,34 @@ html, body{
   padding: 1.3rem;
 }
 
-/* Utilities */
-.text-primary{
-  color: #f0d78c;
+/* showcase */
+
+#showcase{
+  background: url('../img/banner.jpeg') no-repeat center center/cover;
+  height: 600px;
+  color: #fff;
 }
+
+#showcase .showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* Overlay */
+  background-color: rgba(0,0,0,0.3);
+}
+
+#showcase .showcase-content h1{
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+
+
