@@ -101,7 +101,6 @@ p{
 #navbar ul li a:hover,
 #navbar ul li a.current
 {
-  /* background:#83a6d7; */
   color: #f0d78c;
   padding: 1.3rem;
 }
