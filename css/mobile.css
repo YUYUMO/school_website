@@ -1,0 +1,102 @@
+/* Smartphones */
+/* navbar */
+.nav{
+  flex-direction: column;
+}
+
+#navbar ul{
+  display: block;
+}
+
+.nav .logo{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#navbar ul li {
+  margin-bottom: 1rem;
+  border-bottom: 1px dotted #729ad2; 
+  text-align: center;
+}
+
+/* showcase */
+#showcase .showcase-content h1{
+  font-size: 30px;
+}
+
+#showcase .showcase-content p{
+  font-size: 20px;
+  padding-top: 20px;
+  margin: 0 30px;
+}
+
+#showcase .showcase-content .btn{
+  margin-top: 35px;
+}
+
+/* Home-info */
+#home-info .info-img{
+  display: none;
+}
+
+#home-info .info-content{
+  width: 100%;
+}
+
+/* Features */
+#features{
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.box{
+  height: 100%;
+  width: 100%; 
+}
+
+/* About-info */
+
+#about-info{
+  padding-top: 10px;
+}
+#about-info .about{
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-info .about .info-left{
+  width: 100%;
+}
+
+#about-info .about .info-right{
+  width: 100%;
+}
+
+#about-info .about .info-left h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+#about-info .about .info-right img{
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* Testimonials */
+#testimonials .testimonial{
+  flex-direction: column;
+  align-items: center;
+}
+
+/* contact-info */
+#contact-info .container{
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-info .box{
+  border-bottom: 1px dotted #729ad2; 
+}
