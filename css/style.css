@@ -87,6 +87,8 @@ p{
   padding: 1rem;
 }
 
+#logo_link { color: inherit; } 
+
 #navbar ul{
   list-style: none;
   /* display: flex;
@@ -277,3 +279,4 @@ p{
 #contact-info .box h3{
   margin: 20px 0;
 }
+
