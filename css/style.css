@@ -89,8 +89,8 @@ p{
 
 #navbar ul{
   list-style: none;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 #navbar ul li a{
